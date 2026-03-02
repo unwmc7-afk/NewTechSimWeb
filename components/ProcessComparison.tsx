@@ -5,7 +5,7 @@ const ProcessComparison: React.FC = () => {
   // Colors
   const colors = {
     old: '#64748b', // Slate 500 (Grey)
-    new: '#FFAD00', // TechSim Amber (Yellow)
+    new: '#FFD700', // Yellow (Gold)
     text: '#ffffff',
   };
 

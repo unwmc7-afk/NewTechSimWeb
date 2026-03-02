@@ -40,157 +40,6 @@ export const translations = {
         training: "Training",
         trainingDesc: "Expert training for Siemens software and engineering methodologies"
       },
-      cfd: {
-        hero: {
-          title: "Computational Fluid Dynamics (CFD)",
-          subtitle: "Simulate reality, optimize performance.",
-          desc: "Predict fluid flow, heat transfer, and chemical reactions in complex systems with Simcenter STAR-CCM+.",
-          badge: "Simcenter STAR-CCM+"
-        },
-        features: {
-          title: "Key Capabilities",
-          multiphysics: {
-            title: "Multiphysics Simulation",
-            desc: "Solve complex industrial problems involving flow, heat transfer, stress, and electromagnetics in a single integrated environment."
-          },
-          geometry: {
-            title: "Automated Geometry Prep",
-            desc: "Robust 3D CAD repair and meshing tools that handle complex geometries with minimal manual intervention."
-          },
-          design: {
-            title: "Design Exploration",
-            desc: "Automated design optimization to find the best trade-offs between competing performance objectives."
-          }
-        },
-        benefits: {
-          title: "Why Choose Simcenter CFD?",
-          items: [
-            "Reduce physical prototyping costs",
-            "Accelerate product development cycles",
-            "Gain deeper insights into product performance",
-            "Optimize designs for energy efficiency"
-          ]
-        },
-        industries: {
-          title: "Industry Applications",
-          auto: "Automotive aerodynamics & thermal management",
-          aero: "Aerospace propulsion & external aerodynamics",
-          energy: "Turbomachinery & renewable energy systems",
-          process: "Mixing, multiphase flow & chemical reactions"
-        }
-      },
-      aiModem: {
-        hero: {
-          title: "Telematics Unit with Digital Twin",
-          badge: "5G Connectivity",
-          funding: "This project is co-financed with state support from the Technology Agency of the Czech Republic under the TREND Program."
-        },
-        why: {
-          title: "Why?",
-          items: [
-            "Operators lack a comprehensive overview of their fleet status.",
-            "At best, they have big data, but it is unprocessed.",
-            "We feel that carriers want to know where they are losing money, but they don't have the tool yet."
-          ]
-        },
-        digitalTwin: {
-          title: "We know immediately how the bus is doing thanks to Digital Twin",
-          desc: "Real-time calculations directly in the device. We work with data! They are not 'dead'. Collection of GPS, CAN, and accelerometer data. Tracking a new variable? Software change, hardware remains the same.",
-          features: {
-            health: "Health & Diagnostics",
-            mechanics: "Mechanics",
-            battery: "Battery"
-          }
-        },
-        mechanics: {
-          title: "Mechanics",
-          items: [
-            "Accelerometer placed on the axle senses significant shocks from the road",
-            "The unit then counts impacts that exceeded a set limit"
-          ]
-        },
-        battery: {
-          title: "Battery",
-          items: [
-            "Monitoring battery condition reveals which scenarios are harmful.",
-            "That is why it is important to monitor battery health.",
-            "The battery health prediction model is based on accurate simulations."
-          ]
-        },
-        specs: {
-          performance: {
-            title: "Sufficient Computing Power",
-            items: [
-              "NXP i.MX 8XLite (2 × Cortex-A35 @ 1.2 GHz + Cortex-M4F @ 264 MHz)",
-              "2 GB LPDDR4 RAM",
-              "8 GB eMMC"
-            ]
-          },
-          gnss: {
-            title: "Precise GNSS",
-            items: [
-              "GPS, GLONASS, BeiDou, Galileo",
-              "Position update in 1 s",
-              "3-axis accelerometer (±2 / ±4 / ±8 / ±16 g full scale)"
-            ]
-          },
-          durability: {
-            title: "Rugged Design",
-            items: [
-              "IP 67",
-              "-40 °C to 85 °C",
-              "Internal backup battery (1500 mAh)"
-            ]
-          },
-          connectivity: {
-            title: "Rich Connectivity",
-            items: [
-              "LTE Cat-4 / 5G optional",
-              "Wi-Fi 5 (802.11ac) / Wi-Fi 6 opt.",
-              "Bluetooth 5.3",
-              "5× CAN FD",
-              "Ethernet",
-              "RS232, RS485",
-              "2× AI",
-              "2 DI/2 DO"
-            ]
-          }
-        },
-        security: {
-          title: "Security",
-          items: [
-            "Unit connected directly to local network and 5G via IPv6.",
-            "Remote access requires VPN connection to local network.",
-            "Secured by UFW (Uncomplicated Firewall).",
-            "Only outgoing communication to 5G allowed.",
-            "Full communication allowed within internal network.",
-            "SSH access protected by public/private key authentication.",
-            "Azure IoT Hub messages secured via MQTT, TLS, and SAS tokens.",
-            "Secure communication within local network and to cloud.",
-            "Azure-Server communication via secure VPN, data in encrypted database.",
-            "Reverse proxy on front-end masks internal architecture."
-          ]
-        },
-        ai: {
-          title: "AI Implementation",
-          subtitle: "Intelligent platform for optimizing energy efficiency and control of electric buses.",
-          details: [
-            "Project duration: 3 years",
-            "Collection of GPS and CAN bus data from serial buses in normal operation",
-            "AI learning to reduce energy consumption of electric buses through active optimization of driver style",
-            "Development of algorithm with implemented AI"
-          ],
-          phase1: {
-            title: "Phase 1 - Driver Recommendation",
-            desc: "Monitoring bus drivers and evaluating driving economy. Recommendations to driver -> ease off throttle, add throttle, recuperate..."
-          },
-          phase2: {
-            title: "Phase 2 - Active ECU Interventions",
-            desc: "Active ECU interventions, available power management. Limiting maximum bus power with energy saving in mind. System hands over control to driver in crisis situations."
-          },
-          result: "Saved energy = longer bus range, improved battery life and thus more economical operation"
-        }
-      },
       digitalSolutions: "Digital Solutions",
       training: "Training",
       research: "Research",
@@ -201,6 +50,157 @@ export const translations = {
       search: "Search...",
       exploreSim: "Explore Simcenter",
       exploreEDA: "Explore EDA"
+    },
+    cfd: {
+      hero: {
+        title: "Computational Fluid Dynamics (CFD)",
+        subtitle: "Simulate reality, optimize performance.",
+        desc: "Predict fluid flow, heat transfer, and chemical reactions in complex systems with Simcenter STAR-CCM+.",
+        badge: "Simcenter STAR-CCM+"
+      },
+      features: {
+        title: "Key Capabilities",
+        multiphysics: {
+          title: "Multiphysics Simulation",
+          desc: "Solve complex industrial problems involving flow, heat transfer, stress, and electromagnetics in a single integrated environment."
+        },
+        geometry: {
+          title: "Automated Geometry Prep",
+          desc: "Robust 3D CAD repair and meshing tools that handle complex geometries with minimal manual intervention."
+        },
+        design: {
+          title: "Design Exploration",
+          desc: "Automated design optimization to find the best trade-offs between competing performance objectives."
+        }
+      },
+      benefits: {
+        title: "Why Choose Simcenter CFD?",
+        items: [
+          "Reduce physical prototyping costs",
+          "Accelerate product development cycles",
+          "Gain deeper insights into product performance",
+          "Optimize designs for energy efficiency"
+        ]
+      },
+      industries: {
+        title: "Industry Applications",
+        auto: "Automotive aerodynamics & thermal management",
+        aero: "Aerospace propulsion & external aerodynamics",
+        energy: "Turbomachinery & renewable energy systems",
+        process: "Mixing, multiphase flow & chemical reactions"
+      }
+    },
+    aiModem: {
+      hero: {
+        title: "Telematics Unit with Digital Twin",
+        badge: "5G Connectivity",
+        funding: "This project is co-financed with state support from the Technology Agency of the Czech Republic under the TREND Program."
+      },
+      why: {
+        title: "Why?",
+        items: [
+          "Operators lack a comprehensive overview of their fleet status.",
+          "At best, they have big data, but it is unprocessed.",
+          "We feel that carriers want to know where they are losing money, but they don't have the tool yet."
+        ]
+      },
+      digitalTwin: {
+        title: "We know immediately how the bus is doing thanks to Digital Twin",
+        desc: "Real-time calculations directly in the device. We work with data! They are not 'dead'. Collection of GPS, CAN, and accelerometer data. Tracking a new variable? Software change, hardware remains the same.",
+        features: {
+          health: "Health & Diagnostics",
+          mechanics: "Mechanics",
+          battery: "Battery"
+        }
+      },
+      mechanics: {
+        title: "Mechanics",
+        items: [
+          "Accelerometer placed on the axle senses significant shocks from the road",
+          "The unit then counts impacts that exceeded a set limit"
+        ]
+      },
+      battery: {
+        title: "Battery",
+        items: [
+          "Monitoring battery condition reveals which scenarios are harmful.",
+          "That is why it is important to monitor battery health.",
+          "The battery health prediction model is based on accurate simulations."
+        ]
+      },
+      specs: {
+        performance: {
+          title: "Sufficient Computing Power",
+          items: [
+            "NXP i.MX 8XLite (2 × Cortex-A35 @ 1.2 GHz + Cortex-M4F @ 264 MHz)",
+            "2 GB LPDDR4 RAM",
+            "8 GB eMMC"
+          ]
+        },
+        gnss: {
+          title: "Precise GNSS",
+          items: [
+            "GPS, GLONASS, BeiDou, Galileo",
+            "Position update in 1 s",
+            "3-axis accelerometer (±2 / ±4 / ±8 / ±16 g full scale)"
+          ]
+        },
+        durability: {
+          title: "Rugged Design",
+          items: [
+            "IP 67",
+            "-40 °C to 85 °C",
+            "Internal backup battery (1500 mAh)"
+          ]
+        },
+        connectivity: {
+          title: "Rich Connectivity",
+          items: [
+            "LTE Cat-4 / 5G optional",
+            "Wi-Fi 5 (802.11ac) / Wi-Fi 6 opt.",
+            "Bluetooth 5.3",
+            "5× CAN FD",
+            "Ethernet",
+            "RS232, RS485",
+            "2× AI",
+            "2 DI/2 DO"
+          ]
+        }
+      },
+      security: {
+        title: "Security",
+        items: [
+          "Unit connected directly to local network and 5G via IPv6.",
+          "Remote access requires VPN connection to local network.",
+          "Secured by UFW (Uncomplicated Firewall).",
+          "Only outgoing communication to 5G allowed.",
+          "Full communication allowed within internal network.",
+          "SSH access protected by public/private key authentication.",
+          "Azure IoT Hub messages secured via MQTT, TLS, and SAS tokens.",
+          "Secure communication within local network and to cloud.",
+          "Azure-Server communication via secure VPN, data in encrypted database.",
+          "Reverse proxy on front-end masks internal architecture."
+        ]
+      },
+      ai: {
+        title: "AI Implementation",
+        subtitle: "Intelligent platform for optimizing energy efficiency and control of electric buses.",
+        details: [
+          "Project duration: 3 years",
+          "Collection of GPS and CAN bus data from serial buses in normal operation",
+          "AI learning to reduce energy consumption of electric buses through active optimization of driver style",
+          "Development of algorithm with implemented AI"
+        ],
+        phase1: {
+          title: "Phase 1 - Driver Recommendation",
+          desc: "Monitoring bus drivers and evaluating driving economy. Recommendations to driver -> ease off throttle, add throttle, recuperate..."
+        },
+        phase2: {
+          title: "Phase 2 - Active ECU Interventions",
+          desc: "Active ECU interventions, available power management. Limiting maximum bus power with energy saving in mind. System hands over control to driver in crisis situations."
+        },
+        result: "Saved energy = longer bus range, improved battery life and thus more economical operation"
+      }
     },
     digitalThreadsLinks: {
       eda: "Electronics Design Thread",
@@ -575,157 +575,6 @@ export const translations = {
         training: "Školení",
         trainingDesc: "Expertní školení pro software Siemens a inženýrské metodiky"
       },
-      cfd: {
-        hero: {
-          title: "Počítačová dynamika tekutin (CFD)",
-          subtitle: "Simulujte realitu, optimalizujte výkon.",
-          desc: "Předpovídejte proudění tekutin, přenos tepla a chemické reakce v komplexních systémech pomocí Simcenter STAR-CCM+.",
-          badge: "Simcenter STAR-CCM+"
-        },
-        features: {
-          title: "Klíčové schopnosti",
-          multiphysics: {
-            title: "Multifyzikální simulace",
-            desc: "Řešte složité průmyslové problémy zahrnující proudění, přenos tepla, napětí a elektromagnetismus v jediném integrovaném prostředí."
-          },
-          geometry: {
-            title: "Automatizovaná příprava geometrie",
-            desc: "Robustní nástroje pro opravu 3D CAD a síťování, které zvládnou složité geometrie s minimálním manuálním zásahem."
-          },
-          design: {
-            title: "Průzkum návrhu",
-            desc: "Automatizovaná optimalizace návrhu pro nalezení nejlepších kompromisů mezi konkurenčními cíli výkonu."
-          }
-        },
-        benefits: {
-          title: "Proč zvolit Simcenter CFD?",
-          items: [
-            "Snížení nákladů na fyzické prototypování",
-            "Zrychlení cyklů vývoje produktu",
-            "Získání hlubšího vhledu do výkonu produktu",
-            "Optimalizace návrhů pro energetickou účinnost"
-          ]
-        },
-        industries: {
-          title: "Průmyslové aplikace",
-          auto: "Automobilová aerodynamika a tepelný management",
-          aero: "Letecký pohon a vnější aerodynamika",
-          energy: "Turbostroje a systémy obnovitelné energie",
-          process: "Míchání, vícefázové proudění a chemické reakce"
-        }
-      },
-      aiModem: {
-        hero: {
-          title: "Telematická jednotka s Digitálním dvojčetem",
-          badge: "5G Konektivita",
-          funding: "Tento projekt je spolufinancován se státní podporou Technologické agentury ČR v rámci Programu TREND."
-        },
-        why: {
-          title: "Proč?",
-          items: [
-            "Provozovatelé nemají komplexní přehled o stavu svého vozového parku.",
-            "V lepším případě mají big data, ale ta nejsou zpracována.",
-            "Cítíme, že dopravci chtějí vědět kudy jim utíkají peníze, ale nástroj zatím nemají."
-          ]
-        },
-        digitalTwin: {
-          title: "Víme hned, jak na tom autobus je díky Digital Twin",
-          desc: "Real-time výpočty přímo v zařízení. S daty pracujeme! Nejsou „mrtvá“. Sběr GPS, CAN a akcelerometrických dat. Sledování nové veličiny? Změna softwaru, hardware zůstane stejný.",
-          features: {
-            health: "Zdraví a diagnostika",
-            mechanics: "Mechanika",
-            battery: "Baterie"
-          }
-        },
-        mechanics: {
-          title: "Mechanika",
-          items: [
-            "Akcelerometr umístěný na nápravě snímá významné rázy od vozovky",
-            "Jednotka následně počítá nárazy, které přesáhly nastavenou mez"
-          ]
-        },
-        battery: {
-          title: "Baterie",
-          items: [
-            "Sledování kondice baterie odhalí jaké scénáře jí neprospívají.",
-            "Proto je důležité sledovat kondici baterie.",
-            "Model předpovědi zdraví baterie je založen na přesných simulacích."
-          ]
-        },
-        specs: {
-          performance: {
-            title: "Dostatečný výpočetní výkon",
-            items: [
-              "NXP i.MX 8XLite (2 × Cortex-A35 @ 1,2 GHz + Cortex-M4F @ 264 MHz)",
-              "2 GB LPDDR4 RAM",
-              "8 GB eMMC"
-            ]
-          },
-          gnss: {
-            title: "Přesná GNSS",
-            items: [
-              "GPS, GLONASS, BeiDou, Galileo",
-              "Update pozice za 1 s",
-              "3-osý akcelerometr (±2 / ±4 / ±8 / ±16 g full scale)"
-            ]
-          },
-          durability: {
-            title: "Odolné provedení",
-            items: [
-              "IP 67",
-              "-40 °C až 85 °C",
-              "Interní záložní baterie (1500 mAh)"
-            ]
-          },
-          connectivity: {
-            title: "Bohatá konektivita",
-            items: [
-              "LTE Cat-4 / 5G volitené",
-              "Wi-Fi 5 (802.11ac) / Wi-Fi 6 vol.",
-              "Bluetooth 5.3",
-              "5× CAN FD",
-              "Ethernet",
-              "RS232, RS485",
-              "2× AI",
-              "2 DI/2 DO"
-            ]
-          }
-        },
-        security: {
-          title: "Zabezpečení",
-          items: [
-            "Jednotka je přímo připojena k lokální síti a k 5G síti přes IPv6.",
-            "Vzdálený přístup k zařízení vyžaduje připojení k lokální síti pomocí VPN.",
-            "Bezpečnost je zajištěna pomocí UFW (Uncomplicated Firewall) firewallu.",
-            "Povolená je pouze odchozí komunikace do 5G sítě.",
-            "Povolená je plná komunikace v rámci interní sítě.",
-            "Přístup přes SSH je chráněn autentizací pomocí páru veřejného a soukromého klíče.",
-            "Zprávy odesílané do Microsoft Azure IoT Hub jsou zabezpečeny pomocí MQTT, TLS a SAS tokenů.",
-            "Toto nastavení zajišťuje bezpečnou komunikaci v rámci lokální sítě i směrem do cloudu.",
-            "Komunikace mezi Azure a serverem probíhá přes zabezpečené VPN, přičemž data jsou ukládána do zaheslované databáze.",
-            "Na front-endu běží reverzní proxy, která maskuje vnitřní architekturu a zajišťuje skrytí backendových serverů."
-          ]
-        },
-        ai: {
-          title: "Implementace AI",
-          subtitle: "Inteligentní platforma pro optimalizaci energetické efektivity a řízení elektrických autobusů.",
-          details: [
-            "Délka projektu: 3 roky",
-            "Sběr GPS dat a dat z CAN sběrnic sériových autobusů z běžného provozu",
-            "Učení AI s cílem snížení energetické náročnosti provozu elektrobusů skrze aktivní optimalizaci jízdního stylu řidiče",
-            "Vývoj algoritmu s implementovanou AI"
-          ],
-          phase1: {
-            title: "První fáze - Doporučení řidiči",
-            desc: "Kontrola řidičů autobusu a hodnocení ekonomiky jízdy. Doporučení řidiči → uber plyn, přidej plyn, rekuperuj…"
-          },
-          phase2: {
-            title: "Druhá fáze - Aktivní zásahy ECU",
-            desc: "Aktivní zásahy ECU, řízení dostupného výkonu. Omezení maximálního výkonu autobusu s myšlenkou úspory energie. Systém předá řízení řidiči v krizových situacích."
-          },
-          result: "Ušetřená energie = delší dojezd autobusu, zlepšení životnosti baterií a tím ekonomičtější provoz"
-        }
-      },
       digitalSolutions: "Digitální řešení",
       training: "Školení",
       research: "Výzkum",
@@ -736,6 +585,157 @@ export const translations = {
       search: "Hledat...",
       exploreSim: "Prozkoumat Simcenter",
       exploreEDA: "Prozkoumat EDA"
+    },
+    cfd: {
+      hero: {
+        title: "Počítačová dynamika tekutin (CFD)",
+        subtitle: "Simulujte realitu, optimalizujte výkon.",
+        desc: "Předpovídejte proudění tekutin, přenos tepla a chemické reakce v komplexních systémech pomocí Simcenter STAR-CCM+.",
+        badge: "Simcenter STAR-CCM+"
+      },
+      features: {
+        title: "Klíčové schopnosti",
+        multiphysics: {
+          title: "Multifyzikální simulace",
+          desc: "Řešte složité průmyslové problémy zahrnující proudění, přenos tepla, napětí a elektromagnetismus v jediném integrovaném prostředí."
+        },
+        geometry: {
+          title: "Automatizovaná příprava geometrie",
+          desc: "Robustní nástroje pro opravu 3D CAD a síťování, které zvládnou složité geometrie s minimálním manuálním zásahem."
+        },
+        design: {
+          title: "Průzkum návrhu",
+          desc: "Automatizovaná optimalizace návrhu pro nalezení nejlepších kompromisů mezi konkurenčními cíli výkonu."
+        }
+      },
+      benefits: {
+        title: "Proč zvolit Simcenter CFD?",
+        items: [
+          "Snížení nákladů na fyzické prototypování",
+          "Zrychlení cyklů vývoje produktu",
+          "Získání hlubšího vhledu do výkonu produktu",
+          "Optimalizace návrhů pro energetickou účinnost"
+        ]
+      },
+      industries: {
+        title: "Průmyslové aplikace",
+        auto: "Automobilová aerodynamika a tepelný management",
+        aero: "Letecký pohon a vnější aerodynamika",
+        energy: "Turbostroje a systémy obnovitelné energie",
+        process: "Míchání, vícefázové proudění a chemické reakce"
+      }
+    },
+    aiModem: {
+      hero: {
+        title: "Telematická jednotka s Digitálním dvojčetem",
+        badge: "5G Konektivita",
+        funding: "Tento projekt je spolufinancován se státní podporou Technologické agentury ČR v rámci Programu TREND."
+      },
+      why: {
+        title: "Proč?",
+        items: [
+          "Provozovatelé nemají komplexní přehled o stavu svého vozového parku.",
+          "V lepším případě mají big data, ale ta nejsou zpracována.",
+          "Cítíme, že dopravci chtějí vědět kudy jim utíkají peníze, ale nástroj zatím nemají."
+        ]
+      },
+      digitalTwin: {
+        title: "Víme hned, jak na tom autobus je díky Digital Twin",
+        desc: "Real-time výpočty přímo v zařízení. S daty pracujeme! Nejsou „mrtvá“. Sběr GPS, CAN a akcelerometrických dat. Sledování nové veličiny? Změna softwaru, hardware zůstane stejný.",
+        features: {
+          health: "Zdraví a diagnostika",
+          mechanics: "Mechanika",
+          battery: "Baterie"
+        }
+      },
+      mechanics: {
+        title: "Mechanika",
+        items: [
+          "Akcelerometr umístěný na nápravě snímá významné rázy od vozovky",
+          "Jednotka následně počítá nárazy, které přesáhly nastavenou mez"
+        ]
+      },
+      battery: {
+        title: "Baterie",
+        items: [
+          "Sledování kondice baterie odhalí jaké scénáře jí neprospívají.",
+          "Proto je důležité sledovat kondici baterie.",
+          "Model předpovědi zdraví baterie je založen na přesných simulacích."
+        ]
+      },
+      specs: {
+        performance: {
+          title: "Dostatečný výpočetní výkon",
+          items: [
+            "NXP i.MX 8XLite (2 × Cortex-A35 @ 1,2 GHz + Cortex-M4F @ 264 MHz)",
+            "2 GB LPDDR4 RAM",
+            "8 GB eMMC"
+          ]
+        },
+        gnss: {
+          title: "Přesná GNSS",
+          items: [
+            "GPS, GLONASS, BeiDou, Galileo",
+            "Update pozice za 1 s",
+            "3-osý akcelerometr (±2 / ±4 / ±8 / ±16 g full scale)"
+          ]
+        },
+        durability: {
+          title: "Odolné provedení",
+          items: [
+            "IP 67",
+            "-40 °C až 85 °C",
+            "Interní záložní baterie (1500 mAh)"
+          ]
+        },
+        connectivity: {
+          title: "Bohatá konektivita",
+          items: [
+            "LTE Cat-4 / 5G volitené",
+            "Wi-Fi 5 (802.11ac) / Wi-Fi 6 vol.",
+            "Bluetooth 5.3",
+            "5× CAN FD",
+            "Ethernet",
+            "RS232, RS485",
+            "2× AI",
+            "2 DI/2 DO"
+          ]
+        }
+      },
+      security: {
+        title: "Zabezpečení",
+        items: [
+          "Jednotka je přímo připojena k lokální síti a k 5G síti přes IPv6.",
+          "Vzdálený přístup k zařízení vyžaduje připojení k lokální síti pomocí VPN.",
+          "Bezpečnost je zajištěna pomocí UFW (Uncomplicated Firewall) firewallu.",
+          "Povolená je pouze odchozí komunikace do 5G sítě.",
+          "Povolená je plná komunikace v rámci interní sítě.",
+          "Přístup přes SSH je chráněn autentizací pomocí páru veřejného a soukromého klíče.",
+          "Zprávy odesílané do Microsoft Azure IoT Hub jsou zabezpečeny pomocí MQTT, TLS a SAS tokenů.",
+          "Toto nastavení zajišťuje bezpečnou komunikaci v rámci lokální sítě i směrem do cloudu.",
+          "Komunikace mezi Azure a serverem probíhá přes zabezpečené VPN, přičemž data jsou ukládána do zaheslované databáze.",
+          "Na front-endu běží reverzní proxy, která maskuje vnitřní architekturu a zajišťuje skrytí backendových serverů."
+        ]
+      },
+      ai: {
+        title: "Implementace AI",
+        subtitle: "Inteligentní platforma pro optimalizaci energetické efektivity a řízení elektrických autobusů.",
+        details: [
+          "Délka projektu: 3 roky",
+          "Sběr GPS dat a dat z CAN sběrnic sériových autobusů z běžného provozu",
+          "Učení AI s cílem snížení energetické náročnosti provozu elektrobusů skrze aktivní optimalizaci jízdního stylu řidiče",
+          "Vývoj algoritmu s implementovanou AI"
+        ],
+        phase1: {
+          title: "První fáze - Doporučení řidiči",
+          desc: "Kontrola řidičů autobusu a hodnocení ekonomiky jízdy. Doporučení řidiči → uber plyn, přidej plyn, rekuperuj…"
+        },
+        phase2: {
+          title: "Druhá fáze - Aktivní zásahy ECU",
+          desc: "Aktivní zásahy ECU, řízení dostupného výkonu. Omezení maximálního výkonu autobusu s myšlenkou úspory energie. Systém předá řízení řidiči v krizových situacích."
+        },
+        result: "Ušetřená energie = delší dojezd autobusu, zlepšení životnosti baterií a tím ekonomičtější provoz"
+      }
     },
     digitalThreadsLinks: {
       eda: "Vlákno vývoje Elektroniky",

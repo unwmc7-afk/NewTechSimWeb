@@ -2,8 +2,8 @@ import React, { useState, useEffect, useRef } from 'react';
 import { useLanguage } from '../contexts/LanguageContext';
 
 interface HeaderProps {
-  onNavigate: (page: 'home' | 'blog' | 'testing' | 'seminar' | 'energy' | 'sitemap' | 'privacy' | 'terms' | 'contact' | 'about' | 'digital-eda' | 'digital-simcenter' | 'digital-cam') => void;
-  currentPage: 'home' | 'blog' | 'testing' | 'seminar' | 'energy' | 'sitemap' | 'privacy' | 'terms' | 'contact' | 'about' | 'digital-eda' | 'digital-simcenter' | 'digital-cam';
+  onNavigate: (page: 'home' | 'blog' | 'testing' | 'seminar' | 'energy' | 'sitemap' | 'privacy' | 'terms' | 'contact' | 'about' | 'digital-eda' | 'digital-simcenter' | 'digital-cam' | 'ai-modem' | 'cfd-simulation') => void;
+  currentPage: 'home' | 'blog' | 'testing' | 'seminar' | 'energy' | 'sitemap' | 'privacy' | 'terms' | 'contact' | 'about' | 'digital-eda' | 'digital-simcenter' | 'digital-cam' | 'ai-modem' | 'cfd-simulation';
 }
 
 const Header: React.FC<HeaderProps> = ({ onNavigate, currentPage }) => {
@@ -34,7 +34,7 @@ const Header: React.FC<HeaderProps> = ({ onNavigate, currentPage }) => {
     };
   }, []);
 
-  const handleNavClick = (page: 'home' | 'blog' | 'testing' | 'seminar' | 'energy' | 'sitemap' | 'privacy' | 'terms' | 'contact' | 'about' | 'digital-eda' | 'digital-simcenter' | 'digital-cam', e: React.MouseEvent) => {
+  const handleNavClick = (page: 'home' | 'blog' | 'testing' | 'seminar' | 'energy' | 'sitemap' | 'privacy' | 'terms' | 'contact' | 'about' | 'digital-eda' | 'digital-simcenter' | 'digital-cam' | 'ai-modem' | 'cfd-simulation', e: React.MouseEvent) => {
     e.preventDefault();
     onNavigate(page);
     setMobileMenuOpen(false);
